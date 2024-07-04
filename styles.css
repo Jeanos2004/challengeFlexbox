@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sale{
+    position: absolute;
+    left: 88px;
+    top: 6px;
+    padding: 8px 15px;
+    font-size: 10px;
+    color: white;
+    font-family: "Arial Black", sans-serif;
+    font-weight: bold;
+    background-color: red;
+    
+}
+body{
+    margin: 20px auto;
+    height: 100%;
+    width: 1080px;
+    box-sizing: border-box;
+    font-family: "Arial",sans-serif;
+
+}
+a{
+    color: black;
+    font-weight: bold;
+}
+.container{
+    border: 3px solid black;
+
+}
+.container1{
+    display: flex;
+    gap: 30px;
+}
+.section{
+    width: 40%;
+}
+#section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#section2{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+#section2 ul {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h1{
+    background-color: #eee;
+    padding: 20px;
+    margin-top: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+.container-items{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    
+}
+.ent1 {
+    display: flex;
+    justify-content: space-between;
+}
+.ent1 p{
+    padding: 10px;
+    font-size: 10px;
+    color: gray;
+}
+.item{
+    width: 20px;
+    height: 20px;
+}
+#item1{
+    background-color: black;
+}
+#item2{
+    background-color: blue;
+}
+#item3{
+    background-color: red;
+}
+#item4{
+    background-color: yellow;
+}
+#item5{
+    background-color: rgba(6, 184, 6, 0.582);
+}
+#item6{
+    background-color: brown;
+}
+.cart{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
